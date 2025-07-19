@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Link from "next/link";
 import "../ComponentStyle/Trip.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -7,6 +8,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 function Trip() {
+
   return (
     <div className="tripCon">
       <div className="trip">
@@ -21,21 +23,65 @@ function Trip() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="ChengDu">
-                <h1>ChengDu</h1>
+            <div className="day1 swiper">
+                <h1>Day 1</h1>
                 <h6>成都</h6>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide> 
-            <div className="JuiZhaiGou">
-                <h1>JuiZhaiGou</h1>
-                <h6>九寨沟</h6>
+                <Link href="/Trip/day1"><button>View more</button></Link>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="ChongQing">
-                <h1>ChongQing</h1>
-                <h6>重庆</h6>
+            <div className="day2 swiper">
+                <h1>Day 2</h1>
+                <h6>成都</h6>
+                
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day3 swiper">
+                <h1>Day 3</h1>
+                <h6>成都</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day4 swiper">
+                <h1>Day 4</h1>
+                <h6>成都</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day5 swiper">
+                <h1>Day 5</h1>
+                <h6>成都</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day6 swiper">
+                <h1>Day 6</h1>
+                <h6>成都</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day7 swiper">
+                <h1>Day 7</h1>
+                <h6>成都</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day8 swiper">
+                <h1>Day 8</h1>
+                <h6>成都</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day9 swiper">
+                <h1>Day 9</h1>
+                <h6>成都</h6>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="day10 swiper">
+                <h1>Day 10</h1>
+                <h6>成都</h6>
             </div>
           </SwiperSlide>
         </Swiper>
@@ -45,4 +91,5 @@ function Trip() {
 }
 
 export default Trip;
+
 
