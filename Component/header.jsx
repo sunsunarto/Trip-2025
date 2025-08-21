@@ -11,7 +11,7 @@ function header() {
                 <div className="right">
                     <ul className="flex gap-5">
                         <li><a href="#">Home</a></li>
-                        <li><a href="/trip">Trip</a></li>
+                        <li><a href="/component">Trip</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>

@@ -6,9 +6,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
+import "antd/dist/reset.css";
+import { Button } from "antd";
 
 function Trip() {
-
   return (
     <div className="tripCon">
       <div className="trip">
@@ -26,7 +27,7 @@ function Trip() {
             <div className="day1 swiper">
                 <h1>Day 1</h1>
                 <h6>成都</h6>
-                <Link href="/Trip/day1"><button>View more</button></Link>
+                <a  className="p-5" href="/Trip/day1" target="_blank" rel="noopener noreferrer">details</a>
             </div>
           </SwiperSlide>
           <SwiperSlide>

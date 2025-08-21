@@ -17,7 +17,7 @@ function UseAgent() {
           <p>成都 - 九寨沟 - 重庆</p>
         </div>
       </SwiperSlide>
-      <SwiperSlide className='slide2 my-auto'>
+      <SwiperSlide className='slide2 my-auto '>
         <img src="https://www.avia.travel/lib/images/logo-aviatour.png" alt="" />
       </SwiperSlide>
       <SwiperSlide className='slide3 bg-[#00000095]' style={{background: "linear-gradient(to bottom, #00064E 88%, #000000 12%)"}}>
